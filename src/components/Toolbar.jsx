@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
 import './toolbar.css';
 
-export default class Toolbar extends Component {
-  constructor(props) {
-    super(props);
-  }
-
+export default class Toolbar extends Component {  
   render() {
     console.log(this.props);
 
